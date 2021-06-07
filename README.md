@@ -1,3 +1,3 @@
-# CarteiraDosSonhos
+﻿# CarteiraDosSonhos
 
-Integração OpenBanking
+Integração inicial OpenBanking
