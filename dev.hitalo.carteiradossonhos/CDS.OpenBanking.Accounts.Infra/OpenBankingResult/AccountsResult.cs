@@ -1,10 +1,11 @@
 ﻿using CDS.OpenBanking.Accounts.Domain.Entities.Accounts;
+using System.Collections.Generic;
 
 namespace CDS.OpenBanking.Accounts.Infra.OpenBankingResult
 {
-    public class AccountResult
+    public class AccountsResult
     {
-        public Account Data { get; set; }
+        public ICollection<Account> Data { get; set; }
         public Links Links { get; set; }
         public Meta Meta { get; set; }
     }

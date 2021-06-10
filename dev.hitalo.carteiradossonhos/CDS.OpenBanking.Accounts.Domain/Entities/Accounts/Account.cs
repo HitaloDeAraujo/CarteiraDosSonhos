@@ -1,4 +1,4 @@
-﻿namespace CDS.OpenBanking.Accounts.Domain.Entities
+﻿namespace CDS.OpenBanking.Accounts.Domain.Entities.Accounts
 {
     public class Account
     {

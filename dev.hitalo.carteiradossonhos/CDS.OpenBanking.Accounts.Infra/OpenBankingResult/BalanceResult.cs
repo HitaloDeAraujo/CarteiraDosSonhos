@@ -2,9 +2,9 @@
 
 namespace CDS.OpenBanking.Accounts.Infra.OpenBankingResult
 {
-    public class AccountResult
+    public class BalanceResult
     {
-        public Account Data { get; set; }
+        public Balance Data { get; set; }
         public Links Links { get; set; }
         public Meta Meta { get; set; }
     }
