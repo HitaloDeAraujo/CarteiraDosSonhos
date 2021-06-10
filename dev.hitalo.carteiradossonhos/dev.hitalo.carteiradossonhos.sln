@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dev.hitalo.carteiradossonhos", "dev.hitalo.carteiradossonhos\dev.hitalo.carteiradossonhos.csproj", "{3BED48DE-222A-444B-B7A2-9D04D35C463E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenBanking", "OpenBanking", "{ECE4018C-65CE-484B-B880-2CF04F685814}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDS.OpenBanking.Accounts.Service", "CDS.OpenBanking.Accounts.Service\CDS.OpenBanking.Accounts.Service.csproj", "{97B90CBA-DB78-4536-9840-4D8613E3FB4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDS.OpenBanking.Accounts.Domain", "CDS.OpenBanking.Accounts.Domain\CDS.OpenBanking.Accounts.Domain.csproj", "{F71F8C02-F7CE-41CA-8428-D82DCAA33992}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDS.OpenBanking.Accounts.Infra", "CDS.OpenBanking.Accounts.Infra\CDS.OpenBanking.Accounts.Infra.csproj", "{83A72214-BEBC-4047-9CA4-DB8C14ADA354}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BED48DE-222A-444B-B7A2-9D04D35C463E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BED48DE-222A-444B-B7A2-9D04D35C463E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BED48DE-222A-444B-B7A2-9D04D35C463E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BED48DE-222A-444B-B7A2-9D04D35C463E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97B90CBA-DB78-4536-9840-4D8613E3FB4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B90CBA-DB78-4536-9840-4D8613E3FB4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B90CBA-DB78-4536-9840-4D8613E3FB4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B90CBA-DB78-4536-9840-4D8613E3FB4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F71F8C02-F7CE-41CA-8428-D82DCAA33992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F71F8C02-F7CE-41CA-8428-D82DCAA33992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F71F8C02-F7CE-41CA-8428-D82DCAA33992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F71F8C02-F7CE-41CA-8428-D82DCAA33992}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83A72214-BEBC-4047-9CA4-DB8C14ADA354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83A72214-BEBC-4047-9CA4-DB8C14ADA354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83A72214-BEBC-4047-9CA4-DB8C14ADA354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83A72214-BEBC-4047-9CA4-DB8C14ADA354}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{97B90CBA-DB78-4536-9840-4D8613E3FB4F} = {ECE4018C-65CE-484B-B880-2CF04F685814}
+		{F71F8C02-F7CE-41CA-8428-D82DCAA33992} = {ECE4018C-65CE-484B-B880-2CF04F685814}
+		{83A72214-BEBC-4047-9CA4-DB8C14ADA354} = {ECE4018C-65CE-484B-B880-2CF04F685814}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5AE7C0C3-A24B-4368-8A32-CF34A1A1FFD9}
+	EndGlobalSection
+EndGlobal

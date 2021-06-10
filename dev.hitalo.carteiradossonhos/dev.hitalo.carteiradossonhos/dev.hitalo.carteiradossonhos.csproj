@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CDS.OpenBanking.Accounts.Domain\CDS.OpenBanking.Accounts.Domain.csproj" />
+    <ProjectReference Include="..\CDS.OpenBanking.Accounts.Infra\CDS.OpenBanking.Accounts.Infra.csproj" />
+    <ProjectReference Include="..\CDS.OpenBanking.Accounts.Service\CDS.OpenBanking.Accounts.Service.csproj" />
+  </ItemGroup>
+
+</Project>
